@@ -1,0 +1,158 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        body {
+            background-color: #fafafa;
+        }
+        /* NAVBAR  */
+        
+        .navbar {
+            height: 60px;
+            background: #fff;
+            border-bottom: 1px solid #dbdbdb;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 40px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .logo {            font-size: 22px;
+            font-weight: bold;
+        }
+        
+        .search-box input {
+            width: 250px;
+            padding: 7px;
+            border-radius: 5px;
+            border: 1px solid #dbdbdb;
+            background: #efefef;
+        }
+        
+        .nav-icons i {
+            margin-left: 20px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        /* MAIN LAYOUT  */
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .feed {
+            width: 470px;
+        }
+        
+        .sidebar {
+            width: 300px;
+            margin-left: 40px;
+        }
+        /* -POST CARD  */
+        
+        .post {
+            background: #fff;
+            border: 1px solid #dbdbdb;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        
+        .post-header {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+        
+        .post-header img {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+         
+        .post-image img {
+            width: 100%;
+            display: block;
+        }
+        
+        .post-actions {
+            padding: 10px;
+        }
+        
+        .post-actions i {
+            font-size: 22px;
+            margin-right: 15px;
+            cursor: pointer;
+        }
+        
+        .likes {
+            padding: 0 10px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .caption {
+            padding: 0 10px 10px;
+        }
+        
+        .comment-box {
+            border-top: 1px solid #dbdbdb;
+            padding: 10px;
+        }
+          .comment-box input {
+            width: 100%;
+            border: none;
+            outline: none;
+        }
+        /*SIDEBAR */
+        
+        .profile {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .profile img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        
+        .suggestions h4 {
+            color: #8e8e8e;
+            margin-bottom: 10px;
+        }
+        
+        .suggestion {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .suggestion img {  width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        
+        .follow {
+            margin-left: auto;
+            color: #0095f6;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        /*Responsiveness*/
+        
+        @media (max-width: 900px) {
+            .sidebar {
+                display: none;
+            }
+        }
