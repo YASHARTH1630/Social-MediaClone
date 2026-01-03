@@ -9,4 +9,6 @@ Dynamic Interactions: Users will be able to click "Like" and do "Comment." These
 
 Data Base: Store data locally in the code 
 
+Included the vercel demo link:https://social-media-clone-taupe.vercel.app/
+ 
 just basic clone of instagram having like and comment feature,using javascript ,html,css
